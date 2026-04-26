@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-// Vite requires 'import.meta.env' to read .env variables
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+// Update this line with your Railway URL
+const API_URL = 'https://test1-production-8f83.up.railway.app';
 
 const api = axios.create({
   baseURL: API_URL
